@@ -1,0 +1,132 @@
+body{
+	background: url(webtreats_fabric_4-512px.jpg);
+}
+
+#container{
+	width: 960px;
+	margin: auto;
+	border: 1px white solid;
+	padding: 20px;
+}
+
+#main{
+	width:  320px;
+	margin: auto;
+
+}
+
+.box{
+	width: 50px;
+	height: 50px;
+	border: 1px dashed black;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+#small{
+	background: white;
+	-webkit-transform: scale(1);
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 500ms;
+}
+
+#small:hover{
+	-webkit-transform: scale(.5);
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 500ms;
+}
+
+#big{
+	background: white;
+	-webkit-transform: scale(1);
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 500ms;
+}
+
+#big:hover{
+	background: url(wood.jpg);
+	background-size: cover;
+	-webkit-transform: scale(3);
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 500ms;
+}
+
+#reverse{
+	background: white;
+}
+
+#reverse:hover{
+	background: url(bg4.jpg); white;
+	background-size: cover;
+	-webkit-transition-timing-function: ease-out;
+	-webkit-transition-duration: 500ms;
+	-webkit-transform: rotate3d(0,1,0,-180deg);
+	-webkit-animation-iteration-count: 1;
+}
+
+.black{
+	background: white;
+	width: 50px;
+	height: 50px;
+	border: 1px dashed black;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+.black:hover{
+	background: url(webtreats_fabric_1-512px.jpg) black;
+	color: white;
+	width: 50px;
+	height: 50px;
+	border: 1px dashed black;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+.yellow{
+	background: white;
+	width: 50px;
+	height: 50px;
+	border: 1px dashed black;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+.yellow:hover{
+	background: url(bokeh-01-yellow.jpg) yellow;
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	border: 1px dashed black;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+.clear{
+	clear: both;
+}
+
+@keyframes bigtext {
+  from {
+    font-size: 100%;
+  }
+ 
+  to {
+    font-size: 200%;
+  }
+}
+
+@keyframes smalltext {
+  from {
+    font-size: 100%;
+  }
+ 
+  to {
+    font-size: 20%;
+  }
+}
